@@ -1,32 +1,21 @@
-Title: pip install 
-Date: 2017-03-25 11:41
-Category: Tech
+Title: 想成为Nature自然科研的自由译者吗？
+Date: 2017-04-01 11:41
+Category: Job
 
-##Install packages from:
+![Nature](images/nature.gif)
 
-PyPI (and other indexes) using requirement specifiers.
-VCS project urls.
-Local project directories.
-Local or remote source archives.
-pip also supports installing from "requirements files", which provide an easy way to specify a whole environment to be installed.
+经常有人问我们招聘的职位是否可以兼职，我们总是回复我们招聘的编辑和市场等职位都是全职的。
 
-Overview
-Pip install has several stages:
+不过今天我们终于要放出一些兼职机会了！你喜欢阅读英文的科技新闻并且能够把它们翻译成通顺准确的中文吗？无论你在世界的那个角落，只要你翻译水平过关并且有中国的银行卡，我们都欢迎你成为我们的自由译者。
 
-Identify the base requirements. The user supplied arguments are processed here.
-Resolve dependencies. What will be installed is determined here.
-Build wheels. All the dependencies that can be are built into wheels.
-Install the packages (and uninstall anything being upgraded/replaced).
-Argument Handling
-When looking at the items to be installed, pip checks what type of item each is, in the following order:
+应聘条件：
 
-Project or archive URL.
-Local directory (which must contain a setup.py, or pip will report an error).
-Local file (a sdist or wheel format archive, following the naming conventions for those formats).
-A requirement, as specified in PEP 440.
-Each item identified is added to the set of requirements to be satisfied by the install.
+请将下面四段文字的中文翻译与你的中文（或者英文）简历发送到China@nature.com，如果我们的全职翻译对你的翻译水平满意的话，会在两周内联系你。
 
-##Working Out the Name and Version
-For each candidate item, pip needs to know the project name and version. For wheels (identified by the .whl file extension) this can be obtained from the filename, as per the Wheel spec. For local directories, or explicitly specified sdist files, the setup.py egg_info command is used to determine the project metadata. For sdists located via an index, the filename is parsed for the name and project version (this is in theory slightly less reliable than using the egg_info command, but avoids downloading and processing unnecessary numbers of files).
+Having written biographies of both men, I am convinced that the narrowly focused,hot-tempered, impecunious Champollion learnt much from seeds of knowledge planted by the wide-ranging, cool-headed, wealthy Young. Had they chosen tocombine forces, rather than to be divided by the defeat of Napoleon Bonaparte(a patron of Champollion), the problem could well have been solved years earlier.
 
-##Any URL may use the #egg=name syntax (see VCS Support) to explicitly state the project name.
+Once a drug is on the market, it is hard togather solid efficacy data. Blinding and randomization in clinical studies can be compromised when money changes hands and, historically, compliance with monitoring requirements has been poor. A survey of 20 drugs approved by the FDA in 2008 found that fewer than one-third of post-market study commitments had been fulfilled by 2013.
+
+Data are increasingly used to govern science. Research evaluations that were once bespoke and performed by peers are now routine and reliant on metrics. The problem is that evaluation is now led by the data rather than by judgment. Metrics have proliferated: usually well intentioned, not always well informed, often ill applied. We risk damaging the system with the very tools designed to improve it, as evaluation is increasingly implemented by organizations without knowledge of, or advice on, good practice and interpretation.
+
+Transition-metal complexes are used as photosensitizers and photocatalysts, and in light-emitting devices. For these uses, the complexes need to be excited from their ground state to a charge-transfer state, which generally needs to be long-lived to ensure efficient performance. This has made it challenging to replace the scarce but high-performing precious metals used in these complexes with Earth-abundant metals that are cheaper and less toxic.
