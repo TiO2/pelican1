@@ -2,10 +2,9 @@
 
 ## A static site using pelican
 
+<a href="https://scientist-tortoise-12030.netlify.com/" target="_blank">Live site</a>
 
 [Live site](https://scientist-tortoise-12030.netlify.com/)
-
-
 
 ### instructions: 
 
