@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'PeiM'
-SITENAME = u'SmartCareer'
-SITEURL = ''
+SITENAME = u'Boston Career'
+SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
@@ -20,8 +20,12 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('TJUAA-Boston', 'http://www.tjuboston.org/'),
-         ('You can modify those links in your config file', '#'),)
+#LINKS = (('TJUAA-Boston', 'http://#www.tjuboston.org/'),
+#         ('You can modify those links in your config file', '#'),)
+
+#LINKS = (('TJUAA-Boston', 'http://#www.tjuboston.org/'),)
+
+LINKS = (('波士顿职场招聘信息', ''),)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),

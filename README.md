@@ -4,12 +4,13 @@
 
 <a href="https://scientist-tortoise-12030.netlify.com/" target="_blank">Live site</a>
 
-[Live site](https://scientist-tortoise-12030.netlify.com/)
-
 ### instructions: 
 
-
 Create virtualenv using the requirements.txt
+
+e.g. 
+
+	$workon pelican_netlify
 
 Put contents in content/ folder. 
 
@@ -34,5 +35,5 @@ If use fab:
 
 	fab serve
 
-The site will be running at http://localhost:8000/
+The site will be running at [localhost](http://localhost:8000/)
 
