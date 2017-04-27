@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'PeiM'
 SITENAME = u'Boston Career'
-SITEURL = 'http://localhost:8000'
+SITEURL = 'https://scientist-tortoise-12030.netlify.com/'
 
 PATH = 'content'
 
