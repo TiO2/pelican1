@@ -5,6 +5,8 @@ from __future__ import unicode_literals
 AUTHOR = u'PeiM'
 SITENAME = u'Boston Career'
 SITEURL = 'https://scientist-tortoise-12030.netlify.com/'
+SITETITLE = u'Boston Career'
+SITESUBTITLE = 'Opportunities'
 
 PATH = 'content'
 
@@ -18,6 +20,14 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+MAIN_MENU = True
+HOME_HIDE_TAGS = True
+
+MENUITEMS = (('Archives', '/archives.html'),
+             ('Categories', '/categories.html'),
+             ('Tags', '/tags.html'),)
+
 
 # Blogroll
 #LINKS = (('TJUAA-Boston', 'http://#www.tjuboston.org/'),
