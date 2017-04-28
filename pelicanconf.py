@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'PeiM'
 SITENAME = u'Boston Career'
 SITEURL = 'https://scientist-tortoise-12030.netlify.com/'
-SITETITLE = u'Boston Career'
+SITETITLE = u'波士顿职场招聘信息'
 SITESUBTITLE = 'Opportunities'
 
 PATH = 'content'
@@ -35,7 +35,7 @@ MENUITEMS = (('Archives', '/archives.html'),
 
 #LINKS = (('TJUAA-Boston', 'http://#www.tjuboston.org/'),)
 
-LINKS = (('波士顿职场招聘信息', ''),)
+LINKS = (('', ''),)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
