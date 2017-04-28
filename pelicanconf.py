@@ -7,6 +7,7 @@ SITENAME = u'Boston Career'
 SITEURL = 'https://scientist-tortoise-12030.netlify.com/'
 SITETITLE = u'波士顿职场招聘信息'
 SITESUBTITLE = 'Opportunities'
+SITELOGO = None 
 
 PATH = 'content'
 
